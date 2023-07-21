@@ -12,7 +12,7 @@ const Parent = () => {
     <>
         <h1>Parent Component Data</h1>
         <p style={{color:"red"}}>Updata data and send data at child1 & child2</p>
-        <p> name : {data.name},<br />number:{data.number},<br />email:{data.email}</p>
+        <p> name : {data.name}<br />number:{data.number}<br />email:{data.email}</p>
         <Child1 data={data} updatedata={updatedata}/>
         <Child2 data={data}/>
     </>
